@@ -1,5 +1,5 @@
 import 'media.dart';
-class Song implements Media{
+class Song extends Media{
   String artist;
   Song({required this.artist});
   
